@@ -17,7 +17,7 @@ public class FlipCoin {
             }
             else {
                 Head++;
-                System.out.println("Head");
+                System.out.println("Tail");
             }
             int headflip = (100 * Head) / count;
             int tailflip = (100 * Tail) / count;
